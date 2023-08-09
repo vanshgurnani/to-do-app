@@ -1,0 +1,39 @@
+
+.body-login{
+    
+    background-image: url(images/back.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+} 
+
+.n1{
+  margin-bottom: 10px;
+}
+.form-control:focus{
+  border-color: #004d80; 
+  box-shadow: 0 0 0 0.2rem rgba(12, 12, 12, 0.25);
+}
+
+.form-signin {
+  max-width: 330px;
+  padding:15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+.card-login{
+  text-align: center;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 400px; 
+  border: 1px solid #373333;
+  border-radius: 8px;
+  background-color: rgba(249, 249, 249, 0.3);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
