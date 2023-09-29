@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
 // Connection URL
-// const url = 'mongodb+srv://gurnanivansh57:iz64rqtBBQss8iQ7@cluster101.nuwewcc.mongodb.net/tododb?retryWrites=true&w=majority';
+ const url = 'mongodb+srv://gurnanivansh57:iz64rqtBBQss8iQ7@cluster101.nuwewcc.mongodb.net/tododb?retryWrites=true&w=majority';
 // const url = process.env.MONGODB_URL;
-const url='mongodb://localhost:27017';
+// const url='mongodb://localhost:27017';
 const dbName = 'tododb';
 const collectionName = 'todos';
 const collection='Signup';
